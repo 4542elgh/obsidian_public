@@ -11,7 +11,7 @@ This is a very simple demo of `CustomJS` and `Dataview` plugin.
 	- Weather API `https://www.weather.gov/documentation/services-web-api` 
 	- HackersNews API `https://hacker-news.firebaseio.com/v0/topstories.json`
 - Dataview to display the data inside note. (I usually place this inside banner dashboard so I see it first thing in the morning)
-- CustomJS code used in demo can be found in [Github](https://github.com/4542elgh/obsidian_public/blob/main/content/Projects/CustomJS%20Template/customjs)
+- CustomJS code used in demo can be found in [Github][obsidian_public/content/Projects/Obsidian/CustomJS Template/customjs at main · 4542elgh/obsidian_public (github.com)](https://github.com/4542elgh/obsidian_public/tree/main/content/Projects/Obsidian/CustomJS%20Template/customjs)
 
 You might need some programming knowledge to get this working or just modify this demo project to your need. 
 I will try my best to explain every single detail so you can create your own customJS script.
