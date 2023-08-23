@@ -6,5 +6,5 @@ He saved millions, but he cannot save himself. ◢◤ Forever
 
 Table of content:
 
-- [[Projects/Obsidian/index|Obsidian]]
-- [[Projects/Steamdeck/index|SteamDeck]]
+- [[obsidian_index|Obsidian]]
+- [[steamdeck_index|SteamDeck]]
