@@ -1,2 +1,5 @@
-# Obsidian vault for personal
-This vault contain all personal project I have done
+---
+draft: true
+---
+# Obsidian vault for public
+This vault contain public project and guides
