@@ -8,3 +8,4 @@ Table of content:
 
 - [[obsidian_index|Obsidian]]
 - [[steamdeck_index|SteamDeck]]
+- [[CMD/Useful CMD|Useful CMD]]
