@@ -40,13 +40,13 @@ passwd
 Then it will prompt you to set a new password
 - Since I already set a password for user `deck`, it will ask current password before setting a new password. 
 	- If you see it asking for your current password then you already have a `sudo` password set.
-<br/>![[Pasted image 20230905204904.png]]
+<br/>![[Pasted image 20230905204904.png]]<br/>
 **DO NOT FORGET THIS PASSWORD, YOU WILL GO THROUGH PAIN IF YOU FORGET THIS**
 
 ### Install GyroDSU
 This is a plugin you can either get from [SteamDeckGyroDSU](https://github.com/kmicki/SteamDeckGyroDSU) (follow their official README.md guide) or if you have EmuDeck already installed, you can launch EmuDeck installer and install from there.
 #### Github method
-Just follow their [README.md](https://github.com/kmicki/SteamDeckGyroDSU)If you are not very technical, just use the EmuDeck method, it is a bit easier.
+Just follow their [README.md](https://github.com/kmicki/SteamDeckGyroDSU). If you are not very technical, just use the EmuDeck method, it is a bit easier.
 #### Emudeck method
 1. Start EmuDeck from your desktop, if you dont have this icon, you can download from [EmuDeck website](https://www.emudeck.com/EmuDeck.desktop)
 <br/>![[Screenshot_20230905_203643.png]]
@@ -88,12 +88,12 @@ We will now configure Cemu emulator on PC
 1. Open up `Cemu`, `Options` -> `Input settings`
 <br/>![[Pasted image 20230905215858.png]]
 2. Under `Controller 1` profile, you want to setup an `emulated controller` of `Wii U GamePad`. Only `Wii U GamePad` support gyro motion
-3. Then in Controller (this is your actual physical controller) we will setup basic control first
-**Note, YOU MUST CONFIGURE THE CONTROLLERS IN THIS ORDER, REVERSE ORDER WILL MAKE GYRO NOT WORK**
+3. Then in Controller (this is your actual physical controller) we will setup basic control first<br/>
+**Note, YOU MUST CONFIGURE THE CONTROLLERS IN THIS ORDER, REVERSE ORDER WILL MAKE GYRO NOT WORK**<br/>
 XINPUT FIRST, THEN GYRO/DSUController
 <br/>![[Pasted image 20230905223522.png]]
 ### XINPUT
-We will need to get basic key mapping into Cemu, and surprisingly, Cemu allow you to use multiple controller input on the same controller profile (one for basic control and one for gyro)
+We will need to get basic key mapping into Cemu, and surprisingly, Cemu allow you to use multiple controller input on the same controller profile (one for basic control and one for gyro)<br/>
 **YOU WILL NEED TO LAUNCH MOONLIGHT INORDER FOR CEMU TO DETECT STEAMDECK BASIC CONTROL**
 1. Click on the plus button and add a `XINPUT` API
 <br/>![[Pasted image 20230906184403.png]]
