@@ -116,5 +116,3 @@ We will need to get basic key mapping into Cemu, and surprisingly, Cemu allow yo
 At this point Gyro is working and we should be able to move around from tilting our SteamDeck, you also got basic control from XINPUT
 4. Give this controller a name and save
 ![[Pasted image 20230905221841.png]]
-# End Result:
-[[gyrodemo.mp4]]
