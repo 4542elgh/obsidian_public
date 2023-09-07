@@ -4,6 +4,7 @@ tags:
   - steamdeck
   - tutorial
   - moonlight
+  - sunshine
 ---
 # What is this
 Since Nvidia Shield GameStream is going away soon if not already https://www.androidpolice.com/nvidia-shield-tv-sunset-gamestream/. Awesome open source developers from (LizardByte, FrogTheFrog and Moonlight-stream) created a new way of utilizing Moonlight and Sunshine stack to stream game to your handheld devices within local network. To my surprise, it is easier to setup Sunshine and Moonlight than going through Nvidia shield route.
