@@ -7,4 +7,5 @@ He saved millions, but he cannot save himself. ◢◤ Forever
 # Table of content:
 - [[obsidian_index|Obsidian]]
 - [[gaming_index|Gaming]]
+- [[kmk_setup|Keyboard]]
 - [[Useful CMD]]
