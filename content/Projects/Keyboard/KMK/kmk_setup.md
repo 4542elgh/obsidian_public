@@ -1,3 +1,8 @@
+---
+tags: [python, kmk, keyboard]
+title: KMK Setup
+---
+
 # Prefix
 - Xiao RP2040 is a microcontroller roughly size of a MX switch with massive storage space
 
@@ -7,8 +12,13 @@
 - Using [CircuitPython](https://circuitpython.org/) as base firmware. 
 - [KMK](http://kmkfw.io/) is a library on top of CircuitPython, treat this library as a helper. This helper makes programming keyboard keycode and other feature easier.
 
+# You will need the following software
+- [WinCompose](https://github.com/samhocevar/wincompose/releases/tag/v0.9.11) for Unicode support on Windows
+- [MU Editor](https://codewith.mu/) or [VSCode](https://code.visualstudio.com/) for editing code (notepad would also work)
+- [Putty](https://putty.org/) if you need to connect via COM port and see debug message
+
 # Initial setup
-The following setup only need to do once. If you got a working board already, you dont need to do this part
+The following setup only need to do once. If you got a working board already, you dont need to do this part. Skip to [[#Editor]] to setup editor or skip to [[#User Configuration]] to start configuring your keymap.
 ## Flashing CircuitPython base firmware .uf2
 You probably dont need this, but just in case your firmware broke for any reason, use this to reflash your firmware.
 1. Go to CircuitPython page for [XIAO RP2040](https://circuitpython.org/board/seeeduino_xiao_rp2040/), and download the `.uf2` file
@@ -57,7 +67,7 @@ Reprogram/disable NeoPixel (the white big LED in between Reset and Boot button),
 4. Edit `main.py` and `kb.py` on the CIRCUITPY drive and everything will be recognized, including KMK libraries
 
 ## Putty
-[Advanced Serial Console on Windows](https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-windows)
+Official Doc: [Advanced Serial Console on Windows](https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-windows)
 1. Install Putty
 2. You can also use [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) to connect to COM port. You can find COM port via device manager. 
 ![[Pasted image 20231013230059.png]]
