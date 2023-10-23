@@ -2,6 +2,9 @@
 tags: [python, kmk, keyboard]
 title: KMK Setup
 ---
+<div class="iframe-wrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pwFmzLHFmQI?si=8kYoa97_-FSD1jhb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 # Prefix
 - Xiao RP2040 is a microcontroller roughly size of a MX switch with massive storage space
