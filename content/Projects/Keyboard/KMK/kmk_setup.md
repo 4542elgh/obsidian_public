@@ -1,6 +1,7 @@
 # Prefix
 - Xiao RP2040 is a microcontroller roughly size of a MX switch with massive storage space
-![[Pasted image 20231013215114.png]]
+
+    ![[Pasted image 20231013215114.png]]
 	- python code can be place inside storage without compiling (unlike QMK and ZMK) making updating keymap easier and more accessible (no toolchain required). 
 	- Easier for anyone to update keymap in `main.py`, since configuration is in Python, it is fairly easy to understand for most users
 - Using [CircuitPython](https://circuitpython.org/) as base firmware. 
@@ -11,27 +12,35 @@ The following setup only need to do once. If you got a working board already, yo
 ## Flashing CircuitPython base firmware .uf2
 You probably dont need this, but just in case your firmware broke for any reason, use this to reflash your firmware.
 1. Go to CircuitPython page for [XIAO RP2040](https://circuitpython.org/board/seeeduino_xiao_rp2040/), and download the `.uf2` file
-![[Pasted image 20231013222139.png]]
+
+    ![[Pasted image 20231013222139.png]]
 2. Hold the BOOT button (located on bottom right of the controller with a letter B) then plug in USB-C cable to your XIAO RP2040
-![[Pasted image 20231013222113.png]]
+
+    ![[Pasted image 20231013222113.png]]
 3. Controller will be recognize as a USB storage, place your .uf2 file inside and the controller will immediately reboot
 4. Now your drive will be named CIRCUITPY and storage drop to 0.98MB and drive filled with CircuitPython libraries
-![[Pasted image 20231013222304.png]]
-![[Pasted image 20231013222334.png]]
+
+    ![[Pasted image 20231013222304.png]]
+    ![[Pasted image 20231013222334.png]]
 ## Add KMK library
 You will only need to do this once, need to recopy kmk folder if you need new feature or bug fixes
 1. Go to my KMK which is a fork of official KMK with a few tweaks [github](https://github.com/4542elgh/kmk_firmware) page and download library
-![[Pasted image 20231019154409.png]]
+
+    ![[Pasted image 20231019154409.png]]
 2. Extract `kmk` folder into CIRCUITPY drive root directory
-![[Pasted image 20231013222720.png]]
+
+    ![[Pasted image 20231013222720.png]]
 ## Add NeoPixel Library
 Reprogram/disable NeoPixel (the white big LED in between Reset and Boot button), it require a new library download into `CIRCUITPY` Drive's `lib` folder. If you do not have this folder, manually create it.
 1. Download the NeoPixel library from [CircuitPython  NeoPixel](https://learn.adafruit.com/circuitpython-essentials/circuitpython-neopixel) and click on `Download Project Bundle`
-![[Pasted image 20231015211414.png]]
+
+    ![[Pasted image 20231015211414.png]]
 2. Then open the zip file and go all the way until you enter `lib` folder
-![[Pasted image 20231015211513.png]]
+
+    ![[Pasted image 20231015211513.png]]
 3. Copy the `neopixel.mpy` and place it inside your CircuitPython Drive's `lib` folder
-![[Pasted image 20231015211631.png]]
+
+    ![[Pasted image 20231015211631.png]]
 
 # Editor
 - Since this is pure python, you can use any text editor to edit `main.py` and `kb.py` file
@@ -40,9 +49,11 @@ Reprogram/disable NeoPixel (the white big LED in between Reset and Boot button),
 [MU Editor](https://codewith.mu/en/download) is supported by official CircuitPython documentation, it have a good enough IDE for writing code and let controller auto reboot for change to take effects. It will also output error messages if it encounter any. This Editor also auto detect COM port and connect to REPL if you need to troubleshoot the board
 1. Download MU editor from link above and install.
 2. Select CircuitPython on initial setup screen
-![[Pasted image 20231013230506.png]]
+
+    ![[Pasted image 20231013230506.png]]
 3. If you need to switch to another mode, you can switch via Mode button
-![[Pasted image 20231013230554.png]]
+
+    ![[Pasted image 20231013230554.png]]
 4. Edit `main.py` and `kb.py` on the CIRCUITPY drive and everything will be recognized, including KMK libraries
 
 ## Putty
@@ -51,8 +62,8 @@ Reprogram/disable NeoPixel (the white big LED in between Reset and Boot button),
 2. You can also use [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) to connect to COM port. You can find COM port via device manager. 
 ![[Pasted image 20231013230059.png]]
 3. Connect to REPL via Putty by using Serial communication, Speed is set to 115200 based on documentation linked above
-![[Pasted image 20231013230222.png]]
 
+    ![[Pasted image 20231013230222.png]]
 # User configuration
 ## main.py
 This is where all your keymapping is
@@ -186,7 +197,8 @@ keyboard.keymap = [
 ```
 
 11. Reprogram/Disable NEOPIEXL LED 
-![[Pasted image 20231014000633.png]]
+
+    ![[Pasted image 20231014000633.png]]
 ```python
 # Disable LED light
 import neopixel
@@ -453,6 +465,7 @@ class PianoKB(KMKKeyboard):
 import board
 dir(board)
 ```
+
 ![[Pasted image 20231013231338.png]]
 
 5. [KeysScanner](https://github.com/KMKfw/kmk_firmware/blob/master/docs/en/scanners.md#keypad-keysscanner) is direct mapping of GPIO pin, this scanner does not need diode

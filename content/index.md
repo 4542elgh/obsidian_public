@@ -5,7 +5,11 @@ title: "Evan's Vault"
 He saved millions, but he cannot save himself. ◢◤ Forever
 
 # Table of content:
+## Windows
+- [[Useful CMD]]
+- [[MPV_install|MPV Setup]]
+
+## Projects
 - [[obsidian_index|Obsidian]]
 - [[gaming_index|Gaming]]
-- [[kmk_setup|Keyboard]]
-- [[Useful CMD]]
+- [[keyboard_index|Keyboard]]
