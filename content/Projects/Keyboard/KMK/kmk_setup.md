@@ -80,6 +80,7 @@ Official Doc: [Advanced Serial Console on Windows](https://learn.adafruit.com/we
 
     ![[Pasted image 20231013230222.png]]
 # User configuration
+If you want to work base on a template, there will be a few in [Github](https://github.com/4542elgh/kmk_keyboard)
 ## main.py
 This is where all your keymapping is
 1. Create `main.py` file
