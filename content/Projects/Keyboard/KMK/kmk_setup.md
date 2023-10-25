@@ -615,7 +615,7 @@ if __name__ == '__main__':
 ### kb.py
 This is where you map each switch to microcontroller pins. If you are building a custom board, take a look at [Github](https://github.com/KMKfw/kmk_firmware) zip file's `boards` folder, if a board with your controller and PCB layout has been created already. Dont re-invent the wheel.
 
-### Custom kb.py
+
 Since we are doing custom PCB and with a fairly new controller XIAO RP2040, we will need to define our own `kb.py` file
 It is strongly recommended that you analyze the schematic of your board in order to map the correct GPIO pin
 1. Create a `kb.py` file
@@ -675,7 +675,7 @@ self.matrix = [
 KMKKeyboard.coord_mapping = [0, 1, 2, 3, 4, 5, 6, 7]
 ```
 
-#### kb.py complete
+### kb.py complete
 This is for PianoPad since every pin is directly map to a pin on XIAO RP2040
 ```python
 import board
