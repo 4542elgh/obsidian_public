@@ -21,10 +21,12 @@ The more negative your Z-Offset is, the closer it is to your bed
 
 ##### Bad:
 Too close to bed, make Z-Offset less negative
+
 ![[Pasted image 20231221105306.png]]
 
 ##### Too far
 Too far from bed, make Z-Offset more negative
+
 ![[Pasted image 20231221105343.png]]
 
 ## Bad Adhesion
