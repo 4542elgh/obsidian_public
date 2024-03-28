@@ -1,5 +1,9 @@
 ---
-tags: [python, kmk, keyboard]
+tags:
+  - python
+  - kmk
+  - keyboard
+  - tutorial
 title: KMK Setup
 ---
 

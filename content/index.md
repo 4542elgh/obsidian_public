@@ -10,6 +10,7 @@ He saved millions, but he cannot save himself. ◢◤ Forever
 - [[MPV_install|MPV Setup]]
 
 ## Projects
-- [[obsidian_index|Obsidian]]
+- [[3d_printing_index|3D Printer]]
 - [[gaming_index|Gaming]]
+- [[obsidian_index|Obsidian]]
 - [[keyboard_index|Keyboard]]
