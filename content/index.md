@@ -14,3 +14,7 @@ He saved millions, but he cannot save himself. ◢◤ Forever
 - [[gaming_index|Gaming]]
 - [[obsidian_index|Obsidian]]
 - [[keyboard_index|Keyboard]]
+
+## Proxmox
+### LXC
+- [[Unprivileged LXC and Bind-Mount host directory]]
